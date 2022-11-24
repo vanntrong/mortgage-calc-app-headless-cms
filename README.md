@@ -39,7 +39,7 @@ npm install
 2. **Run this project on develop enviroment.**
 
 ```shell
-npm run dev
+npm run develop
 ```
 
 3. **After that, you can go to http://localhost:8080 to see the project.**
