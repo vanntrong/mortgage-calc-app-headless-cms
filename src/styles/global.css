@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .mortgage-calculator__input::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    cursor: ew-resize;
+    background: #ff8049;
+    box-shadow: -405px 0 0 400px rgba(255, 128, 73, 0.69);
+    border-radius: 50%;
+  }
+}

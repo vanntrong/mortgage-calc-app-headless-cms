@@ -1,11 +1,23 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
+import Layout from "../components/layout";
+import Hero from "../components/hero";
+import Intro from "../components/intro";
+import MortgageCalculator from "../components/mortgage-calculator";
+import MortgageCalculatorTextBlock from "../components/mortgage-calculator-text-block";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main>
-      <h1 className="text-3xl text-red-500">Hello</h1>
-    </main>
+    <Layout>
+      <Hero />
+      <div className="bg-[#FBFDFF]">
+        <Intro />
+        <div className="pt-[70px] xl:pt-[272px] flex items-center gap-x-[49px] flex-col-reverse xl:flex-row">
+          <MortgageCalculator />
+          <MortgageCalculatorTextBlock />
+        </div>
+      </div>
+    </Layout>
   );
 };
 
