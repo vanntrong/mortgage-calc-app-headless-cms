@@ -4,8 +4,45 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Mortgage Calculator App
 </h1>
+
+## 🚀 Description
+
+This is a simple landing page for Mortgage Calculator App with Headless CMS.
+
+In this project, I implement simple responsive.
+
+You can see the preview page of this project at:
+<a href="https://mortgagecalcappheadlesscmsmain.gatsbyjs.io/">
+    https://mortgagecalcappheadlesscmsmain.gatsbyjs.io/
+ </a>
+ 
+## 🚀 Technologies used
+
+- [x] Typescript.
+- [x] TailwindCSS.
+- [x] GatsbyJS.
+- [x] Contentful (CMS).
+- [x] Gatsby Cloud.
+
+## 🚀 How to run this project on your local machine
+
+After clone this project, run the following command:
+
+1.  **Install all dependencies.**
+
+```shell
+npm install
+```
+
+2. **Run this project on develop enviroment.**
+
+```shell
+npm run dev
+```
+
+3. **After that, you can go to http://localhost:8080 to see the project.**
 
 ## 🚀 Quick start
 
