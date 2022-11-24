@@ -17,6 +17,7 @@ const config: GatsbyConfig = {
         spaceId: "g0tz4n5ylm2z",
       },
     },
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
