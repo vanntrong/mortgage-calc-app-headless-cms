@@ -42,7 +42,7 @@ npm install
 npm run develop
 ```
 
-3. **After that, you can go to http://localhost:8080 to see the project.**
+3. **After that, you can go to http://localhost:8000 to see the project.**
 
 ## 🚀 Quick start
 
